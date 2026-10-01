@@ -12,6 +12,7 @@ img {
 
 body {
     background-color: white;
+    zoom: 1fr;
 }
 
 .img1 {
@@ -39,7 +40,7 @@ header nav {
     position: fixed;
     top: 0;
     z-index: 1000;
-    border: 2px solid  red;
+    /* border: 2px solid  red; */
     width: 1990px;
     padding: 10px 300px;
 
@@ -185,7 +186,7 @@ header nav img a {
     position: absolute;
     top: 655px;
     height: 105px;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .Nav2 img {
@@ -197,175 +198,199 @@ header nav img a {
 
 
 .flex-parent2 {
-    
+    margin-top: 90px;
+    position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .flex-child7 h2 {
-    color: #490181;
-    margin-top: 70px;
-    padding-left: 550px;
-    left: 549px;
-    font-family: Montserrat, sans-serif;
+.flex-child7 h2 {
+    /* border: 2px solid red; */
+    padding: 0px 530px;
+    font-family: Poppins, sans-serif;
     font-size: 49px;
     font-weight: 700;
     font-stretch: 100%;
+    color: #490181;
 }
 
 .flex-child7 p {
-    color: #8F00FF;
-    margin-right: 118px;
-    margin-top: 15px;
-    font-family: "Poppins", sans-serif;
+    padding: 10px 585px;
+    font-family: Poppins, sans-serif;
     font-size: 26px;
     font-weight: 300;
-    letter-spacing: 5%;
     font-stretch: 100%;
-    text-align: center;
-}
-
-.flex-parent2 {
-    margin-top: 30px;
-    padding-left: 370px;
-    border: 2px solid red;
-    position: relative;
-    gap: 22px;
-    padding-top: 8px;
-    width: 2500px;
+    color: #8F00FF;
+    letter-spacing: 3%;
 }
 
 .flex-child8 {
-    /* border: 2px solid green; */
-    width: 490px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-left: 400px;
+    margin-right: 1090px;
+    padding: 10px 30px;
+    text-align: center;
     background-color: #490181;
-    height: 120px;
+    line-height: 1.5;
     border-radius: 20px;
-    padding: 20px 30px;
-    line-height: 1.1;
-    box-shadow: -0px 10px 3px  #FFD74C;
-    margin-bottom: 50px;
+    box-shadow: 1px 10px 1px #FFD74C;
+    margin-top: 40px;
 }
 
-/* .flex-child8 h4 {
-    padding-left: 70px;
-    margin-top: 2px;
-    margin-bottom: 10px;
+.flex-child8 h4 {
     font-family: Poppins, sans-serif;
     font-size: 21px;
     font-weight: 700;
     font-stretch: 100%;
-    color: #FFFFFF;
-
+    color:#FFFFFF;
+    padding-top: 10px;
 }
 
 .flex-child8 p {
-    color: #FFFFFF;
+    padding: 10px 0px;
     font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 400;
+    font-weight: 16px;
     font-stretch: 100%;
-    padding-left: 20px;
+    color: #FFFFFF;
 
-}
-
-.Span {
-    padding-left: 108px;
-    
-    
 }
 
 .flex-child9 {
-    /* border: 2px solid green; */
-    width: 490px;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 1090px;
+    padding: 10px 50px;
+    text-align: center;
     background-color: #490181;
-    height: 120px;
+    line-height: 1.5;
     border-radius: 20px;
-    padding: 25px 30px;
-    line-height: 1.1;
-    box-shadow: -0px 10px 3px  #FFD74C;
+    box-shadow: 1px 10px 1px #FFD74C;
+    /* margin-bottom: 15px; */
 }
-/* 
+
 .flex-child9 h5 {
-    padding-left: 70px;
-    margin-top: 2px;
-    margin-bottom: 10px;
     font-family: Poppins, sans-serif;
     font-size: 21px;
     font-weight: 700;
     font-stretch: 100%;
-    color: #FFFFFF;
-
+    color:#FFFFFF;
+    padding-top: 10px;
 }
 
 .flex-child9 p {
-
-    color: #FFFFFF;
+    padding: 10px 0px;
     font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 400;
+    font-weight: 16px;
     font-stretch: 100%;
-    padding-left: 78px;
-} */
-
-/* .flex-child10 {
-    width: 490px;
-    background-color: #490181;
-    height: 120px;
-    border-radius: 20px;
-    padding: 25px 30px;
-    line-height: 1.1;
-    box-shadow: -0px 10px 3px  #FFD74C;
-    margin-top: 50px;
+    color: #FFFFFF;
 }
+.flex-child10 {
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-left: 400px;
+    margin-right: 1090px;
+    padding: 10px 50px;
+    text-align: center;
+    background-color: #490181;
+    line-height: 1.5;
+    border-radius: 20px;
+    box-shadow: 1px 10px 1px #FFD74C;
+    margin-top: 40px;
+}
+
 .flex-child10 h6 {
-    padding-left: 70px;
-    margin-top: 2px;
-    margin-bottom: 10px;
     font-family: Poppins, sans-serif;
     font-size: 21px;
     font-weight: 700;
     font-stretch: 100%;
-    color: #FFFFFF;
-
+    color:#FFFFFF;
+    padding-top: 10px;
 }
 
 .flex-child10 p {
-
-    color: #FFFFFF;
+    padding: 10px 0px;
     font-family: Poppins, sans-serif;
-    font-size: 16px;
+    font-size: 400;
+    font-weight: 16px;
+    font-stretch: 100%;
+    color: #FFFFFF;
+}
+
+.flex-child11 {
+    width: 50%;
+    position: absolute;
+    top: 115px;
+    left: 950px;
+}
+
+.flex-parent3 {
+    margin-top: 60px;
+    /* border: 2px solid green; */
+    line-height: 1.2;
+    position: relative;
+    background-color: #F0F0FF;
+    height: 700px;
+    padding-top: 80px;
+}
+
+.flex-child12 h5 {
+    padding: 20px 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #490181;
+    width: 50%;
+    /* border: 2px solid red; */
+    padding-left: 300px;
+    margin-bottom: 35px;
+    padding-top: 80px;
+}
+
+.flex-child12 p {
+    color: #490181;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
     font-weight: 400;
     font-stretch: 100%;
-    padding-left: 50px;
-}  */
+    padding-left: 300px;
+    width: 40%;
+    margin-bottom: 60px;
+}
 
+.flex-child13 {
+    /* border: 2px solid red; */
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: 100%;
+    margin: 30px 290px;
+    /* width: 520px; */
+    padding: 15px 0px;
+    padding-right: 40px;
+    padding-left: 35px;
+    text-align: center;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+    box-shadow: 7px 7px 2px #FFB800;
+    width: 30%;
+}
 
-/* .flex-child11 img {
-    max-width: 45%;
-} */
+.twoladies img {
+    max-width: 75%;
+    border-radius: 30px;
+    height: 500px;
+}
 
-/* .flex-child11 {
-    width: 990px;
+.twoladies {
     position: absolute;
-    top: .9px;
-    margin-left: 600px;
-    /* margin-top: 1px; */
-    display: inline-block;
-} */
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    top: 110px;
+    left: 890px;
+    align-items: end;
+    /* height: 500px; */
+    /* left: 1100px; */
+    
+}
