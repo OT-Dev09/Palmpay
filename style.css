@@ -18,7 +18,6 @@ body {
 .img1 {
     max-width: 13%;
     padding-top: 20px;
-    /* margin-left: 1px; */
 }
 
 .Login {
@@ -32,15 +31,11 @@ body {
 
 header nav {
     display: flex;
-    /* margin-left: 300px; */
-    /* margin-right: 500px; */
     justify-content: space-between;
-    /* gap: 65px; */
     background-color: white;
     position: fixed;
     top: 0;
     z-index: 1000;
-    /* border: 2px solid  red; */
     width: 1990px;
     padding: 10px 300px;
 
@@ -55,7 +50,6 @@ header nav a {
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    /* word-spacing: 20px; */
     font-stretch: 100%;
     text-decoration: none;
 }
@@ -80,7 +74,6 @@ header nav img a {
     margin-top: 80px;
     
     padding-left: 90px;
-    /* position: relative; */
 }
 
 .flex-child:nth-child(1) {
@@ -148,7 +141,6 @@ header nav img a {
     left: 280px;
     line-height: 1.3;
     position: absolute;
-    /* display: inline-block; */
 }
 
 .flex-child:nth-child(5) img {
@@ -170,7 +162,6 @@ header nav img a {
     left: 410px;
     line-height: 1.3;
     position: absolute;
-    /* display: inline-block; */
 }
 
 .flex-child:nth-child(6) img {
@@ -186,7 +177,6 @@ header nav img a {
     position: absolute;
     top: 655px;
     height: 105px;
-    /* z-index: 1000; */
 }
 
 .Nav2 img {
@@ -203,7 +193,6 @@ header nav img a {
 }
 
 .flex-child7 h2 {
-    /* border: 2px solid red; */
     padding: 0px 530px;
     font-family: Poppins, sans-serif;
     font-size: 49px;
@@ -223,7 +212,6 @@ header nav img a {
 }
 
 .flex-child8 {
-    /* border: 2px solid red; */
     margin-top: 15px;
     margin-left: 400px;
     margin-right: 1090px;
@@ -256,7 +244,6 @@ header nav img a {
 }
 
 .flex-child9 {
-    /* border: 2px solid red; */
     margin-top: 40px;
     margin-left: 400px;
     margin-right: 1090px;
@@ -266,7 +253,6 @@ header nav img a {
     line-height: 1.5;
     border-radius: 20px;
     box-shadow: 1px 10px 1px #FFD74C;
-    /* margin-bottom: 15px; */
 }
 
 .flex-child9 h5 {
@@ -287,7 +273,6 @@ header nav img a {
     color: #FFFFFF;
 }
 .flex-child10 {
-    /* border: 2px solid red; */
     margin-top: 15px;
     margin-left: 400px;
     margin-right: 1090px;
@@ -327,7 +312,6 @@ header nav img a {
 
 .flex-parent3 {
     margin-top: 60px;
-    /* border: 2px solid green; */
     line-height: 1.2;
     position: relative;
     background-color: #F0F0FF;
@@ -342,7 +326,6 @@ header nav img a {
     font-weight: 700;
     color: #490181;
     width: 50%;
-    /* border: 2px solid red; */
     padding-left: 300px;
     margin-bottom: 35px;
     padding-top: 80px;
@@ -360,13 +343,11 @@ header nav img a {
 }
 
 .flex-child13 {
-    /* border: 2px solid red; */
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-stretch: 100%;
     margin: 30px 290px;
-    /* width: 520px; */
     padding: 15px 0px;
     padding-right: 40px;
     padding-left: 35px;
@@ -385,12 +366,109 @@ header nav img a {
 
 .twoladies {
     position: absolute;
-    /* border: 2px solid green; */
-    /* width: 70%; */
     top: 110px;
-    left: 890px;
+    left: 900px;
     align-items: end;
-    /* height: 500px; */
-    /* left: 1100px; */
-    
 }
+
+.flex-parent4 {
+    background-color: #FFFFFF;
+    line-height: 1.2;
+    height: 700px;
+    padding-bottom: 80px;
+}
+
+
+.nigga img {
+    max-width: 75%;
+    border-radius: 30px;
+    height: 500px;
+}
+
+.nigga {
+    position: absolute;
+    top: 2205px;
+    right: 840px;
+    align-items: end;
+    padding-top: 80px;
+}
+
+.flex-child14 h3 {
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: 100%;
+    margin: 0px 290px;
+    padding: 15px 0px;
+    padding-right: 40px;
+    padding-left: 35px;
+    text-align: center;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+    box-shadow: 7px 7px 2px #FFB800;
+    width: 30%;
+}
+
+.spanchild14 {
+    margin-left: 130px;
+    line-height: 1.3;
+}
+.flex-child14 {
+    position: absolute;
+    left: 950px;
+    padding-left: 50px;
+    padding-top: 90px;
+    text-align: right;
+}
+
+.flex-child14 p {
+    margin-top: 40px;
+}
+
+.flex-child14 h5 {
+    word-spacing: -7px;
+    padding: 10px -0.1px;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #490181;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    padding-top: 80px;
+}
+
+.spanchild14p {
+    margin-right: 6px;
+}
+
+.flex-child14 p {
+    color: #490181;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-stretch: 100%;
+    width: 45%;
+    word-spacing: 2px;
+    margin-left: 60px;
+    line-height: 1.3;
+}
+
+.flex-child15 {
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: 100%;
+    margin: 530px 900px;
+    padding: 15px 0px;
+    padding-right: 40px;
+    padding-left: 35px;
+    text-align: center;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+    box-shadow: 7px 7px 2px #FFB800;
+    width: 30%;
+}
+
